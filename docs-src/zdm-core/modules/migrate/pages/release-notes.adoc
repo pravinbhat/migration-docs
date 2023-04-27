@@ -3,7 +3,7 @@
 ifdef::env-github,env-browser,env-vscode[:imagesprefix: ../images/]
 ifndef::env-github,env-browser,env-vscode[:imagesprefix: ]
 
-== {zdm-automation} 2.3.0 update
+== {zdm-product} 2.3.0
 
 **03 February 2023**
 
