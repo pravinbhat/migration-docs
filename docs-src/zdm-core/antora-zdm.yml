@@ -1,5 +1,5 @@
 name: docs
-version: ~
+version: 2.3.0
 title: Zero Downtime Migration
 start_page: migrate:introduction.adoc
 
