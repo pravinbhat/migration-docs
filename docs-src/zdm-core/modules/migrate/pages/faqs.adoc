@@ -116,6 +116,11 @@ Yes, and here's a summary:
 
 For TLS details, see xref:tls.adoc[].
 
+== Does {zdm-proxy} support internal authentication, LDAP, or Kerberos?
+
+{zdm-proxy} supports internal authentication and LDAP.
+{zdm-proxy} does not support Kerberos.
+
 == How does {zdm-proxy} handle Lightweight Transactions (LWTs)?
 
 {zdm-proxy} handles LWTs as write operations. The proxy sends the LWT to Origin and Target clusters concurrently, and waits for a response from both. {zdm-proxy} will return a `success` status to the client if both Origin and Target send successful acknowledgements, or otherwise will return a `failure` status if one or both do not return an acknowledgement.
